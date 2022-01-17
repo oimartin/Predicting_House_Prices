@@ -22,7 +22,11 @@ A new feature was created by spliting months from MoSold feature into Seasons. A
 ![alt text](https://github.com/oimartin/Predicting_House_Prices/blob/main/figures/created_features_corr.png?raw=true)
 
 ## Chosen features
-Most features had almost no correlation to SalePrice. The 25% most positvely and 25% most negatively correlated features were evaluated and of those, 10 features were selected to use for predicting the test SalePrices. TotalStructureArea was the most postively correlated with SalePrice.
+Most features had almost no correlation to SalePrice. 
+
+![alt text](https://github.com/oimartin/Predicting_House_Prices/blob/main/figures/boxplot_all_corr.png?raw=true)
+
+The 25% most positvely and 25% most negatively correlated features were evaluated and of those, 10 features were selected to use for predicting the test SalePrices. TotalStructureArea was the most postively correlated with SalePrice.
 
 ![alt text](https://github.com/oimartin/Predicting_House_Prices/blob/main/figures/chosen_features_corr.png?raw=true)
 ![alt text](https://github.com/oimartin/Predicting_House_Prices/blob/main/figures/lmplot_TotalStructureArea.png?raw=true)

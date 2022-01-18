@@ -39,6 +39,9 @@ The training data was split into 30% for test and 70% train. (X_train, X_test, y
 Both versions of scaled data were run through the LinearRegression model, and the standard scaled data performed better than the minmax scaled data. The Kaggle score for the standard scaled linear regression prediction was 0.19060.
 ![alt text](https://github.com/oimartin/Predicting_House_Prices/blob/main/predictions/std_lg_houseprice_10.png?raw=true)
 
+## Management Research Question
+This home sale prices model could be helpful for listing agents deciding at what price to first list a house depending on a variety of home factors. Similarly, this model could help consumers on the otherside of the deal to determine if the sale price is appropriate. Cities or municipalities may also be interested in better determing home sale price in order to best determine property taxes to levy on properties.
+
 ## Conclusion
 The next iteration of utilizing a better model would include testing different linear regression regulations such as Ridge, lasso, and ElasticNet.
 

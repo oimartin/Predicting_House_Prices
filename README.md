@@ -28,7 +28,7 @@ The newly created features generally did create improved correlations between Sa
 
 After encoding the ordinal and remaining categorical features, features were chosen if they had a correlation with SalePrice of 0.5 or higher and -0.5 or lower.
 
-![alt text](https://github.com/oimartin/Predicting_House_Prices/blob/main/figures/chosen_features_corr.png?raw=true)
+![alt text](https://github.com/oimartin/Predicting_House_Prices/blob/main/figures/highly_correlated_feat_corr.png?raw=true)
 ![alt text](https://github.com/oimartin/Predicting_House_Prices/blob/main/figures/lmplot_TotalStructureArea.png?raw=true)
 
 ## Setting up training and test sets and standardizing
